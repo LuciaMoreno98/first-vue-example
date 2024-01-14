@@ -1,0 +1,44 @@
+@import './base.css';
+
+nav {
+  background: #2b2b2b;
+  padding: 20px;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 12px;
+}
+
+a:hover {
+  background-color: #1e1e1e;
+}
+
+.container {
+  padding: 32px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #1e1e1e;
+  text-align: left;
+  padding: 8px;
+}
+
+tbody:nth-child(even) {
+  background-color: #2b2b2b;
+}
+
+img {
+  width: 100px;
+}
